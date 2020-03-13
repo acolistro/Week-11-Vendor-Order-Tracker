@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Vendor.Models
+namespace Tracker.Models
 {
   public class Order
   {
