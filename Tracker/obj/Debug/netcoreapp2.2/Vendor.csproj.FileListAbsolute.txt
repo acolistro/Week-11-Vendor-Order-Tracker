@@ -12,3 +12,17 @@ C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor\obj\Debug\netcoreapp2.2\Vendor.
 C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor\obj\Debug\netcoreapp2.2\Vendor.RazorTargetAssemblyInfo.cache
 C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor\obj\Debug\netcoreapp2.2\Vendor.dll
 C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor\obj\Debug\netcoreapp2.2\Vendor.pdb
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.csprojAssemblyReference.cache
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.csproj.CoreCompileInputs.cache
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.RazorAssemblyInfo.cache
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.RazorAssemblyInfo.cs
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.AssemblyInfoInputs.cache
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.AssemblyInfo.cs
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.dll
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.pdb
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\bin\Debug\netcoreapp2.2\Vendor.deps.json
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\bin\Debug\netcoreapp2.2\Vendor.runtimeconfig.json
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\bin\Debug\netcoreapp2.2\Vendor.runtimeconfig.dev.json
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\bin\Debug\netcoreapp2.2\Vendor.dll
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\bin\Debug\netcoreapp2.2\Vendor.pdb
+C:\Users\ThinkPad\desktop\Vendor.Solution\Tracker\obj\Debug\netcoreapp2.2\Vendor.RazorTargetAssemblyInfo.cache

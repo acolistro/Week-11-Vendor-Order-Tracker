@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Vendor\\Vendor.csproj": {}
+    "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Tracker\\Vendor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Vendor\\Vendor.csproj": {
+    "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Tracker\\Vendor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Vendor\\Vendor.csproj",
+        "projectUniqueName": "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Tracker\\Vendor.csproj",
         "projectName": "Vendor",
-        "projectPath": "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Vendor\\Vendor.csproj",
+        "projectPath": "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Tracker\\Vendor.csproj",
         "packagesPath": "C:\\Users\\ThinkPad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Vendor\\obj\\",
+        "outputPath": "C:\\Users\\ThinkPad\\desktop\\Vendor.Solution\\Tracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
