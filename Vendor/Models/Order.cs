@@ -10,7 +10,7 @@ namespace Tracker.Models
     public string Description { get; set; }
     public int Price { get; set; }
     public int Id { get; }
-    public List<Order> Orders { get; set; }
+    public static int IdCounter = 0;
   
     public Order(string title, string description, int price)
     {
@@ -18,7 +18,7 @@ namespace Tracker.Models
       Description = description;
       Price = price;
       _instances.Add(this);
-      Id = _count++;
+      Id = IdCounter++;
     }
 
     public static List<Order> GetAll()
@@ -28,7 +28,6 @@ namespace Tracker.Models
 
     public static void ResetAll()
     {
-      _count = 0;
       _instances.Clear();
     }
 
