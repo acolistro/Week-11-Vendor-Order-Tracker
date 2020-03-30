@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using VendorOrders.Models;
+using VendorOrder.Models;
 
-namespace VendorOrders.Controllers
+namespace VendorOrder.Controllers
 {
   public class VendorsController : Controller
   {
@@ -37,5 +37,8 @@ namespace VendorOrders.Controllers
       model.Add("orders", vendorOrders);
       return View(model);
     }
+
+    [HttpPost("/vendors/{vendorId}/orders")]
+    public ActionResult Create(int vendorId,)
   }
 }    

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace VendorOrders
+namespace VendorOrder
 {
     public class Startup
     {
@@ -25,7 +25,7 @@ namespace VendorOrders
 
         public void Configure(IApplicationBuilder app)
         {
-            // app.UseDeveloperExceptPage();
+            app.UseDeveloperExceptionPage();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -36,7 +36,7 @@ namespace VendorOrders
             app.UseStaticFiles();
             app.Run(async (context) =>
             {
-              await context.Response.WriteAsync("Hello World!");
+              await context.Response.WriteAsync("Something has gone wrong!");
             });
 
         }

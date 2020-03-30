@@ -14,10 +14,10 @@ else
       <p>@item.Description</p>
       <p>@item.Address</p>
       <p>Number of ORDERS = @item.Orders.Count</p>
-      <a href="/vendor/@item.Id/order/new"><Button class="btn btn-success btn-lg">Add Order</Button></a> 
+      <a href="/vendor/@item.Id/orders/new"><Button class="btn btn-success btn-lg">Add Order</Button></a> 
       <a href="/vendor/@item.Id"><Button class="btn btn-info btn-lg">Details</Button></a> 
       <hr>
   }
 }
 
-<a href="/artist/new">Add a Vendor</a>
+<a href="/vendors/create">Add a Vendor</a>
