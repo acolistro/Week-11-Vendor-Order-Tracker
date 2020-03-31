@@ -24,23 +24,6 @@ namespace VendorOrder.Models
       return _instances;
     }
 
-    // public static void ResetAll()
-    // {
-    //   _instances.Clear();
-    // }
-
-    // public static void ClearOne(int searchId)
-    // {
-    //   for(int i = 0; i < _instances.Count; i++ )
-    //   {
-    //     if (_instances[i].Id == searchId)
-    //     {
-    //       _instances.Remove(_instances[i]);
-    //       break;
-    //     }
-    //   }
-    // }
-
     public static Order Find(int searchId)
     {
       return _instances[searchId];
