@@ -5,10 +5,11 @@
 @if(Model.Count == 0)
 {
   <p>List is empty</p>
+  <a href="vendors/new">Add a new Vendor</a>
 }
 else
 {
-  @foreach (var item in Model)
+  @foreach (Vendor vendor in Model)
   {
       <p>@item.Name</p>
       <p>@item.Description</p>
@@ -21,3 +22,4 @@ else
 }
 
 <a href="/vendors/create">Add a Vendor</a>
+<a href="/"><button type="submit">Home</button></a>
