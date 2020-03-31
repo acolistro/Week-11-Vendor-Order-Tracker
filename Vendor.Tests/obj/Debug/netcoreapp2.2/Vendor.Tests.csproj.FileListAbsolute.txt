@@ -1,4 +1,0 @@
-C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor.Tests\obj\Debug\netcoreapp2.2\Vendor.Tests.csprojAssemblyReference.cache
-C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor.Tests\obj\Debug\netcoreapp2.2\Vendor.Tests.csproj.CoreCompileInputs.cache
-C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor.Tests\obj\Debug\netcoreapp2.2\Vendor.Tests.AssemblyInfoInputs.cache
-C:\Users\ThinkPad\desktop\Vendor.Solution\Vendor.Tests\obj\Debug\netcoreapp2.2\Vendor.Tests.AssemblyInfo.cs

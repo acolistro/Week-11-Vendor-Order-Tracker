@@ -1,0 +1,24 @@
+@{
+  Layout = "_Layout";
+}
+@using VendorOrder.Models;
+
+<h1>Your Vendors!</h1>
+@if(Model.Count == 0)
+{
+  <p>List is empty</p>
+  <a href="vendors/new">Add a new Vendor</a>
+}
+else
+{
+  @foreach (Vendor vendor in @Model["vendors"])
+  {
+      <h4><a href="/vendors/@vendor.Id">@Model.Name</a></h4>
+      <p>Number of ORDERS = @Model.Orders.Count</p>
+      <a href="/vendor/@Model.Id/orders/new"><Button class="btn btn-success btn-lg">Add Order</Button></a> 
+      <a href="/vendor/@Model.Id"><Button class="btn btn-info btn-lg">Details</Button></a> 
+      <hr>
+  }
+}
+
+<a href="/"><button type="submit">Home</button></a>
