@@ -11,12 +11,10 @@
 }
 else
 {
-  @foreach (Vendor vendor in @Model["vendors"])
+  @foreach (Vendor vendor in Model)
   {
-      <h4><a href="/vendors/@vendor.Id">@Model.Name</a></h4>
-      <p>Number of ORDERS = @Model.Orders.Count</p>
-      <a href="/vendor/@Model.Id/orders/new"><Button class="btn btn-success btn-lg">Add Order</Button></a> 
-      <a href="/vendor/@Model.Id"><Button class="btn btn-info btn-lg">Details</Button></a> 
+      <h4><a href="/vendors/@vendor.Id">@vendor.Name</a></h4>
+      <a href="/vendors/@vendor.Id"><Button class="btn btn-info btn-lg">Details</Button></a> 
       <hr>
   }
 }
