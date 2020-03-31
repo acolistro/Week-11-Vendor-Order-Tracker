@@ -8,9 +8,8 @@
   <div class="col-md-6 offset-md-3">
     <h1 class="text-center">Add Order for @Model.Name</h1>
     <form action="/vendors/@Model.Id/orders" method="post">
+      <input id="vendorId" name="nameId" type="hidden" value="@Model.Id">
       <div class="form-group">
-
-
         <label for="product">Product</label>
         <input type="text" name="product" class="form-control">
       </div>

@@ -47,10 +47,9 @@ namespace VendorOrder.Models
     }
 
 
-    public static void AddOrder(int id, Order newOrder)
+    public void AddOrder(Order order)
     {
-      Vendor vendor = Find(id);
-      vendor.Orders.Add(newOrder);
+      Orders.Add(order);
     }
 
     public static List<Order> GetOrdersList(int id)
