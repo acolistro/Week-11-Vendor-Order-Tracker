@@ -13,9 +13,9 @@ namespace VendorOrder.Models
     public List<Order> Orders { get; set; }
 
 
-    public Vendor(string vendorName, string description, string address)
+    public Vendor(string name, string description, string address)
     {
-      Name = vendorName;
+      Name = name;
       Description = description;
       Address = address;
       _instances.Add(this);
@@ -35,29 +35,9 @@ namespace VendorOrder.Models
 
     public static Vendor Find(int id)
     {
-      foreach (Vendor vendor in _instances)
-      {
-        if (vendor.Id == id)
-        {
-          return vendor;
-        }
-      }
-      return _instances[0];
+      return _instances[id];
     }
 
-    public static void Update(int id, string vendorName, string description, string address)
-    {
-      Vendor result = Find(id);
-      result.Name = vendorName;
-      result.Description = description;
-      result.Address = address;
-    }
-
-    public static void Delete(int id)
-    {
-      Vendor toRemove = Find(id);
-      _instances.Remove(toRemove);
-    }
 
     public static void AddOrder(int id, Order newOrder)
     {
@@ -84,13 +64,6 @@ namespace VendorOrder.Models
         }
       }
       return result;
-    }
-
-    public static void UpdateOrder(int vendorId, int orderId, string product, int quantity)
-    {
-      Order order = GetOrder(vendorId, orderId);
-      order.Product = product;
-      order.Quantity = quantity;
     }
   }
 }
