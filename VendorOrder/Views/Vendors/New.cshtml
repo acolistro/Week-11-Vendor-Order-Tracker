@@ -2,20 +2,22 @@
   Layout = "_Layout";
 }
 
-<h1>Add a New Vendor</h1>
+<div class="jumbotron">
+  <h1>Add a New Vendor</h1>
 
-<form action="/vendors" method="post">
-  <label for="name">Vendor Name</label>
-  <input id="name" name="name" type="text">
-  <label for="description">Vendor description</label>
-  <input id="description" name="description" type="text">
-  <label for="address">Vendor Address</label>
-  <input id="address" name="address" type="text">
-  <button type="submit">Add</button>
-</form>
+  <form action="/vendors" method="post">
+    <label for="name">Vendor Name</label>
+    <input id="name" name="name" type="text">
+    <label for="description">Vendor description</label>
+    <input id="description" name="description" type="text">
+    <label for="address">Vendor Address</label>
+    <input id="address" name="address" type="text">
+    <button type="submit">Add</button>
+  </form>
 
   <a href="/"><button type="submit">Back Home</button></a>
   <a href="/vendors"><button type="submit">Back To Vendors</button></a>
+</div>  
   
 @* <div class="row">
   <div class="col-md-6 offset-md-3">
