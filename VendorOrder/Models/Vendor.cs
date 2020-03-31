@@ -86,12 +86,11 @@ namespace VendorOrder.Models
       return result;
     }
 
-    public static void UpdateOrder(int vendorId, int orderId, string title, string description, int price)
+    public static void UpdateOrder(int vendorId, int orderId, string product, int quantity)
     {
       Order order = GetOrder(vendorId, orderId);
-      order.Title = title;
-      order.Description = description;
-      order.Price = price;
+      order.Product = product;
+      order.Quantity = quantity;
     }
   }
 }

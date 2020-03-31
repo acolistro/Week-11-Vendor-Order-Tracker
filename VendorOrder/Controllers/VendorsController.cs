@@ -38,7 +38,7 @@ namespace VendorOrder.Controllers
       return View(model);
     }
 
-    [HttpPost("/vendors/{vendorId}/orders")]
-    public ActionResult Create(int vendorId,)
+    // [HttpPost("/vendors/{vendorId}/orders")]
+    // public ActionResult Create(int vendorId,)
   }
 }    
