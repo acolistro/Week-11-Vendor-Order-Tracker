@@ -2,7 +2,11 @@
   Layout = "_Layout";
 }
 
-<h1>Show Order</h1>
-@Model["order"].Title
+@using VendorOrder.Models;
 
-<a href='/vendor/@Model["order"]/order/@Model["order"].Id/edit'>Edit</a>
+<div class="jumbotron">
+  <h1>Order #@Model["order"].Id:</h1>
+  <p>Vendor: @Model["vendor"].Name</p>
+  <p>Product: @Model["order"].Product</p>
+  <p>Quantity: @Model["order"].Quantity</p>
+</div>

@@ -3,20 +3,22 @@
 }
 @using VendorOrder.Models;
 
-<h1>Your Vendors!</h1>
-@if(Model.Count == 0)
-{
-  <p>List is empty</p>
-  <a href="vendors/new">Add a new Vendor</a>
-}
-else
-{
-  @foreach (Vendor vendor in Model)
+<div class="jumbotron">
+  <h1>Your Vendors!</h1>
+  @if(Model.Count == 0)
   {
-      <h4><a href="/vendors/@vendor.Id">@vendor.Name</a></h4>
-      <a href="/vendors/@vendor.Id"><Button class="btn btn-info btn-lg">Details</Button></a> 
-      <hr>
+    <p>List is empty</p>
+    <p><a href="vendors/new">Add a new Vendor</a></p>
   }
-}
+  else
+  {
+    @foreach (Vendor vendor in Model)
+    {
+        <h4><a href="/vendors/@vendor.Id">@vendor.Name</a></h4>
+        <a href="/vendors/@vendor.Id"><Button>Details</Button></a> 
+        <hr>
+    }
+  }
 
-<a href="/"><button type="submit">Home</button></a>
+  <a href="/"><button type="submit">Home</button></a>
+</div>

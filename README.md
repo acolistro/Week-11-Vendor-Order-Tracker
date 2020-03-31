@@ -13,7 +13,7 @@ _ a program that can take in vendors and their orders and track them for a baker
 | Behavior | Input | Output |
 |---|:---:|:---:|
 |Allows bakery to enter a new vendor | New Seasons |"New Seasons" |
-|Allows Bakery to create new orders for each vendor | New Seasons | New Seasons: 15 Loaves French Bread, 20 Muffins |
+|Allows Bakery to create new orders for each vendor | New Seasons | New Seasons: French Bread, 15 Loaves |
 |Allows bakery to view all vendors | Clicks view vendors link |New Seasons, CC's Coffee, Extracto Roasters |
 |Allows bakery to view all orders for one vendor| Clicks vendor link | New Season's: Monday Order, Tuesday Order, ETC |
 

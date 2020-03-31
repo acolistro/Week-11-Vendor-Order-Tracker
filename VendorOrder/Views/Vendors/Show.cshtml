@@ -2,20 +2,21 @@
   Layout = "_Layout";
 }
 @using VendorOrder.Models;
+<div class="jumbotron">
+  <h1>Vendor Details</h1>
+  <p>@Model["vendor"].Name</p>
+  <p>@Model["vendor"].Description</p>
+  <p>@Model["vendor"].Address</p>
 
-<h1>Show Vendor Details</h1>
-@Model["vendor"].Name
-@Model["vendor"].Description
-@Model["vendor"].Address
+  <h3>This Vendor's Orders:</h3>
+  <ul>
+    @foreach (Order order in @Model["orders"])
+    {
+      <li><a href='/vendors/@Model["vendor"].Id/orders/order.Id'>@order.Product</a></li>
+    }
+  </ul>
 
-<p>This Vendor's Orders:</p>
-<ul>
-  @foreach (Order order in @Model["orders"])
-  {
-    <li><a href='/vendors/@Model["vendor"].Id/orders/order.Id'>@order.Product</a></li>
-  }
-</ul>
-
-<a href='/vendors/@Model["vendor"].Id/orders/new'><button type="button">Add a new Order</button></a>
-<a href='/vendors'><button type="button">Return to Vendor list</button></a>
-<a href='/'><button type="button">Home</button></a>
+  <a href='/vendors/@Model["vendor"].Id/orders/new'><button type="button">Add a new Order</button></a>
+  <a href='/vendors'><button type="button">Return to Vendor list</button></a>
+  <a href='/'><button type="button">Home</button></a>
+</div>

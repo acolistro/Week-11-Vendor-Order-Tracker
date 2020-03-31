@@ -1,0 +1,48 @@
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+button {
+  font-size: large;
+  color: crimson;
+}
+
+a {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+body::after {
+  content: "";
+  background: url("../img/bakery.webp");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;  
+}
+
+img {
+  opacity: .5;
+  margin: 10px;
+}
+
+.jumbotron {
+  opacity: .8;
+  margin-top: 5vh;
+  text-align: center;
+}
+
