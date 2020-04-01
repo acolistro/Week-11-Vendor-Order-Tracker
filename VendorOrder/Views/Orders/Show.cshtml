@@ -5,8 +5,9 @@
 @using VendorOrder.Models;
 
 <div class="jumbotron">
-  <h1>Order #@Model["order"].Id:</h1>
+  <h1>Order</h1>
   <p>Vendor: @Model["vendor"].Name</p>
   <p>Product: @Model["order"].Product</p>
-  <p>Quantity: @Model["order"].Quantity</p>
+  <hr/>
+  <a href='/vendors'><button type="button">Return to Vendor list</button></a>
 </div>

@@ -12,11 +12,11 @@
   <ul>
     @foreach (Order order in @Model["orders"])
     {
-      <li><a href='/vendors/@Model["vendor"].Id/orders/order.Id'>@order.Product</a></li>
+      <li><a href='/vendors/@Model["vendor"].Id/orders/@order.Id'>@order.Product</a></li>
     }
   </ul>
 
+
   <a href='/vendors/@Model["vendor"].Id/orders/new'><button type="button">Add a new Order</button></a>
   <a href='/vendors'><button type="button">Return to Vendor list</button></a>
-  <a href='/'><button type="button">Home</button></a>
 </div>
